@@ -5,23 +5,57 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Aldrich J. Xing</title>
       <meta name="description" content="Aldrich J. Xing - IT Manager / Developer / Data Scientist / Security Engineer"/>
+      <meta name="keywords" content="Aldrich J. Xing, IT Manager, Developer, Data Scientist, Security Engineer, Personal Website, Portfolio">
+      <meta name="author" content="Aldrich J. Xing">
+      <meta property="og:title" content="Aldrich J. Xing - Personal Website">
+      <meta property="og:description" content="Aldrich J. Xing - IT Manager / Developer / Data Scientist / Security Engineer">
+      <meta property="og:image" content="./assets/img/aldrich.jpg">
+      <meta property="og:url" content="https://wlms.dev">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="Aldrich J. Xing - Personal Website">
+      <meta name="twitter:description" content="Aldrich J. Xing - IT Manager / Developer / Data Scientist / Security Engineer">
+      <meta name="twitter:image" content="./assets/img/aldrich.jpg">
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Aldrich J. Xing",
+        "url": "https://wlms.dev",
+        "image": "https://wlms.dev/assets/img/aldrich.jpg",
+        "jobTitle": "IT Manager, Developer, Data Scientist, Security Engineer",
+        "sameAs": [
+          "https://www.linkedin.com/in/wlms/",
+          "https://x.com/wlms_uk",
+          "https://keyserver.ubuntu.com/pks/lookup?search=0x259e222222222222&fingerprint=on&op=index",
+          "https://github.com/orangejx"
+        ]
+      }
+      </script>
       <link href="./assets/styles/style.css" rel="stylesheet">
       <link rel="shortcut icon" href="./assets/favicon_io/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="//cdn.wlms.dev/cdnjs/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <!-- Include jQuery -->
+      <script src="//cdn.wlms.dev/cdnjs/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="./assets/js/main.js" defer></script>
    </head>
    <body>
+      <div class="theme-toggle">
+         <button id="theme-switch" aria-label="Toggle dark/light mode">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+         </button>
+      </div>
       <div class="flex-container">
-         <div class="row">
-            <div class="flex-item">
-               <h1>Aldrich(Jiaxing Xing)</h1>
-               <p>IT Manager <span class="dot"></span> Developer <br /> Data Scientist <span class="dot"></span> Security Engineer <span class="hl">@</span> KinkoTech</p>
-
-               <span class="link"><a href="https://www.linkedin.com/in/wlms/" target="_blank">LinkedIn: wlms</a></span><span class="dot"></span>
-               <span class="link"><a href="https://x.com/wlms_uk" target="_blank">X(Twitter): wlms_uk</a></span><br />
-               <span class="link"><a href="https://keyserver.ubuntu.com/pks/lookup?search=0x259e222222222222&fingerprint=on&op=index" target="_blank">OpenPGP: 0x259e222222222222</a></span><span class="dot"></span>
-               <span class="link"><a href="https://github.com/orangejx" target="_blank">Github: orangejx</a></span>
+         <div class="card">
+            <div class="profile-image" id="profile-image"></div>
+            <div class="card-content">
+               <h1 id="profile-name"></h1>
+               <div id="profile-positions"></div>
+               <hr class="separator-line">
+               <div class="social-links" id="social-links"></div>
             </div>
          </div>
-         <div style="position: absolute; top: 96%; right: 1%; font-size: 14px;"><span class="link"><a href="https://github.com/JamesHawkinss/jameshawkins.dev" target="_blank">JamesHawkinss</a></span></div>
+         <div class="footer" id="footer"></div>
       </div>
    </body>
 </html>

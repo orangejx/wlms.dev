@@ -1,0 +1,72 @@
+{
+  "profile": {
+    "name": "Aldrich(Jiaxing Xing)",
+    "positions": [
+      "IT Manager", 
+      "Developer", 
+      "Data Scientist", 
+      "Security Engineer", 
+      "@KinkoTech"
+    ],
+    "avatar": "./assets/img/aldrich.jpg"
+  },
+  
+  "socialLinks": [
+    {
+      "name": "LinkedIn",
+      "username": "wlms",
+      "url": "//www.linkedin.com/in/wlms/",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "name": "Twitter",
+      "username": "wlms_uk",
+      "url": "//x.com/wlms_uk",
+      "icon": "fab fa-twitter"
+    },
+    {
+      "name": "OpenPGP",
+      "username": "0x259e222222222222",
+      "url": "//keyserver.ubuntu.com/pks/lookup?search=0x259e222222222222&fingerprint=on&op=index",
+      "icon": "fas fa-key"
+    },
+    {
+      "name": "GitHub",
+      "username": "orangejx",
+      "url": "//github.com/orangejx",
+      "icon": "fab fa-github"
+    }
+  ],
+  
+  "theme": {
+    "dark": {
+      "bgColor": "#0c0e14",
+      "bgPatternColor": "#586ca8",
+      "cardBg": "#191c24",
+      "textColor": "#95979F",
+      "headingColor": "#fff",
+      "highlightColor": "#3767CE",
+      "hoverColor": "#3767CE",
+      "shadowColor": "rgba(0, 0, 0, 0.2)",
+      "toggleBg": "#191c24",
+      "toggleIcon": "#fff"
+    },
+    "light": {
+      "bgColor": "#f5f5f7",
+      "bgPatternColor": "#3767CE",
+      "cardBg": "#ffffff",
+      "textColor": "#333333",
+      "headingColor": "#111111",
+      "highlightColor": "#3767CE",
+      "hoverColor": "#2a4fa0",
+      "shadowColor": "rgba(0, 0, 0, 0.1)",
+      "toggleBg": "#ffffff",
+      "toggleIcon": "#333333"
+    }
+  },
+  
+  "footer": {
+    "text": "Inspired by JamesHawkinss",
+    "url": "//github.com/JamesHawkinss/jameshawkins.dev"
+  }
+}
